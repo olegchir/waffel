@@ -1,0 +1,47 @@
+### OS specific ###
+
+# Temp files
+*.swp
+
+# Translations
+*.mo
+
+# Vagrant (fast deployment)
+.vagrant
+
+### IDE IntelliJ IDEA ###
+
+# Uncomment to disable idea module sharing
+#*.ipr
+#*.iml
+#*.iws
+#.idea
+
+# Uncomment to enable idea module sharing
+*.iws
+!.idea
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dataSources.ids
+.idea/datasources.xml
+.idea/dataSources.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/dictionaries
+
+# IDE Mr Developer
+#.mr.developer.cfg
+
+### IDE ECLIPSE ###
+#.project
+#.pydevproject
+
+### SASS ###
+
+.sass-cache
+
+### NODE.JS
+
+# Node.js modules
+node_modules
+npm-debug.log
